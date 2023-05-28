@@ -1,8 +1,8 @@
 ![logo](static/logo.svg)
 
-# Ficurinia
+# Unicorn
 
-A prickly blog theme for Hugo
+A unicorn blog theme for Hugo
 
 ![](images/tn.png)
 
@@ -16,11 +16,11 @@ A prickly blog theme for Hugo
 
 ## Configuration
 
-These are some parameters you can use in your `config.toml` to customize Ficurinia:
+These are some parameters you can use in your `config.toml` to customize Unicorn:
 
 ```toml
 baseURL = "https://example.com/"
-theme = "hugo-ficurinia"
+theme = "hugo-unicorn"
 title = "My nice blog"
 languageCode = "en"
 defaultContentLanguage = "en"
@@ -207,20 +207,12 @@ You can add various columns of links in the footer using the `data/footer_column
 Following is an example configuration:
 
 ```yaml
-- title: My other projects
-  links:
-    - title: HydraPaper
-      link: https://hydrapaper.gabmus.org
-    - title: Ada UI
-      link: https://gitlab.com/gabmus/ada-ui
 - title: About me
   links:
     - title: My personal website
-      link: https://gabmus.org
-    - title: My GitLab
-      link: https://gitlab.com/gabmus
-    - title: My GNOME GitLab
-      link: https://gitlab.gnome.org/gabmus
+      link: https://eminboydak.com
+    - title: My GitHub
+      link: https://github.com/eminboydak
 ```
 
 ## Jumbotron
@@ -288,7 +280,7 @@ You can tweak the TOC settings in your `config.toml`:
 
 It's best to use the provided `generate_icons.sh` script to generate all necessary icons for your website. This script requires ImageMagick, that you will need to install separately.
 
-For the best results, place your logo in svg format inside the `static` directory of your website, rename it to `logo.svg` and then call `./themes/hugo-ficurinia/generate_icons.sh static/logo.svg`.
+For the best results, place your logo in svg format inside the `static` directory of your website, rename it to `logo.svg` and then call `./themes/hugo-unicorn/generate_icons.sh static/logo.svg`.
 
 The script will take care of generating all the icons you need.
 
@@ -308,7 +300,7 @@ Finally, make sure to edit your config.toml to include the following:
 
 # Inject custom content
 
-Ficurinia supports injecting custom content into the theme. There are several files you can create in `layouts/partials/inject` that will be included inside the theme in different places.
+Unicorn supports injecting custom content into the theme. There are several files you can create in `layouts/partials/inject` that will be included inside the theme in different places.
 
 | Partial | Placement |
 |---------|-----------|
@@ -319,7 +311,3 @@ Ficurinia supports injecting custom content into the theme. There are several fi
 | `layouts/partials/inject/head.html` | Before closing the `head` tag |
 | `layouts/partials/inject/header-after.html` | Before closing the header |
 | `layouts/partials/inject/header-before.html` | At the beginning of the header |
-
-# Does *Ficurinia* mean anything?
-
-It's Sicilian for Indian fig, also known as prickly pear cactus.

@@ -35,7 +35,7 @@ other = "İptal"
 other = "Paylaş"
 
 [themeCopyrightNotice]
-other = "<a href='https://gabmus.org'>Gabriele Musco</a> tarafından <a href='https://gohugo.io'>Hugo</a> için <a href='https://gitlab.com/gabmus/hugo-ficurinia'>Ficurinia teması</a>. <a href='https://www.gnu.org/licenses/agpl-3.0.html'>GNU AGPLv3</a> altında lisanslanmıştır."
+other = "<a href='https://eminboydak.com'>@eminboydak</a> tarafından <a href='https://gohugo.io'>Hugo</a> için <a href='https://github.com/eminboydak/hugo-unicorn'>Unicorn teması</a>. <a href='https://www.gnu.org/licenses/agpl-3.0.html'>GNU AGPLv3</a> altında lisanslanmıştır."
 
 [home]
 other = "Ana Sayfa"
