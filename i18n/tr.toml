@@ -1,0 +1,59 @@
+[404message]
+other = "Eyvah! Bu sayfa mevcut değil."
+
+[searchbarTxt]
+other = "Ara"
+
+[tags]
+other = "Etiketler"
+
+[date]
+other = "Tarih"
+
+[continueReading]
+other = "Okumaya devam et"
+
+[previousPage]
+other = "Önceki sayfa"
+
+[nextPage]
+other = "Sonraki sayfa"
+
+[shareOnTheFediverse]
+other = "Fediverse'de paylaşın"
+
+[enterFediverseInstanceAddress]
+other = "Instance adresini girin"
+
+[fediverseInstanceExample]
+other = "Ör. mastodon.social"
+
+[cancel]
+other = "İptal"
+
+[share]
+other = "Paylaş"
+
+[themeCopyrightNotice]
+other = "<a href='https://gabmus.org'>Gabriele Musco</a> tarafından <a href='https://gohugo.io'>Hugo</a> için <a href='https://gitlab.com/gabmus/hugo-ficurinia'>Ficurinia teması</a>. <a href='https://www.gnu.org/licenses/agpl-3.0.html'>GNU AGPLv3</a> altında lisanslanmıştır."
+
+[home]
+other = "Ana Sayfa"
+
+[posts]
+other = "Gönderiler"
+
+[search]
+other = "Ara"
+
+[tagsColumn]
+other = "Etiketler:"
+
+[tagColumn]
+other = "Etiket:"
+
+[morePostsLikeThis]
+other = "Bunun gibi daha fazla gönderi"
+
+[noResultsFound]
+other = "Sonuç bulunamadı"
