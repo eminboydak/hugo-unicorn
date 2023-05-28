@@ -20,3 +20,15 @@ light:
   sidebar:
     bg: '#e6e6e6'
     fg: '#121211'
+
+# Dracula Colors
+dracula:
+  bg: '#282a36'
+  hl_bg: '#44475a'
+  fg: '#f8f8f2'
+  dim_fg: '#6272a4'
+  stroke: '#6272a4'
+  accent: '#50fa7b'
+  sidebar:
+    bg: '#44475a'
+    fg: '#f8f8f2'

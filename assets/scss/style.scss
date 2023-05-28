@@ -18,6 +18,15 @@ $light_accent:     {{ $colors.light.accent     | default "#db5793" }};
 $light_sidebar_bg: {{ $colors.light.sidebar.bg | default "#e6e6e6" }};
 $light_sidebar_fg: {{ $colors.light.sidebar.fg | default "#121211" }};
 
+$dracula_bg:         {{ $colors.dracula.bg         | default "#282a36" }};
+$dracula_hl_bg:      {{ $colors.dracula.hl_bg      | default "#44475a" }};
+$dracula_fg:         {{ $colors.dracula.fg         | default "#f8f8f2" }};
+$dracula_dim_fg:     {{ $colors.dracula.dim_fg     | default "#6272a4" }};
+$dracula_stroke:     {{ $colors.dracula.stroke     | default "#6272a4" }};
+$dracula_accent:     {{ $colors.dracula.accent     | default "#50fa7b" }};
+$dracula_sidebar_bg: {{ $colors.dracula.sidebar.bg | default "#44475a" }};
+$dracula_sidebar_fg: {{ $colors.dracula.sidebar.fg | default "#f8f8f2" }};
+
 :root {
     --dark_bg:          #{$dark_bg};
     --dark_hl_bg:       #{$dark_hl_bg};
@@ -37,16 +46,16 @@ $light_sidebar_fg: {{ $colors.light.sidebar.fg | default "#121211" }};
     --light_sidebar_bg: #{$light_sidebar_bg};
     --light_sidebar_fg: #{$light_sidebar_fg};
 
-    {{ if eq .Site.Data.colors.default "light" }}
-        --default_bg:         #{$light_bg};
-        --default_hl_bg:      #{$light_hl_bg};
-        --default_fg:         #{$light_fg};
-        --default_dim_fg:     #{$light_dim_fg};
-        --default_stroke:     #{$light_stroke};
-        --default_accent:     #{$light_accent};
-        --default_sidebar_bg: #{$light_sidebar_bg};
-        --default_sidebar_fg: #{$light_sidebar_fg};
-    {{ else }}
+    --dracula_bg:          #{$dracula_bg};
+    --dracula_hl_bg:       #{$dracula_hl_bg};
+    --dracula_fg:          #{$dracula_fg};
+    --dracula_dim_fg:      #{$dracula_dim_fg};
+    --dracula_stroke:      #{$dracula_stroke};
+    --dracula_accent:      #{$dracula_accent};
+    --dracula_sidebar_bg:  #{$dracula_sidebar_bg};
+    --dracula_sidebar_fg:  #{$dracula_sidebar_fg};
+
+    {{ if eq .Site.Data.colors.default "dark" }}
         --default_bg:         #{$dark_bg};
         --default_hl_bg:      #{$dark_hl_bg};
         --default_fg:         #{$dark_fg};
@@ -55,6 +64,24 @@ $light_sidebar_fg: {{ $colors.light.sidebar.fg | default "#121211" }};
         --default_accent:     #{$dark_accent};
         --default_sidebar_bg: #{$dark_sidebar_bg};
         --default_sidebar_fg: #{$dark_sidebar_fg};
+    {{ else if eq .Site.Data.colors.default "light" }}
+        --default_bg:         #{$light_bg};
+        --default_hl_bg:      #{$light_hl_bg};
+        --default_fg:         #{$light_fg};
+        --default_dim_fg:     #{$light_dim_fg};
+        --default_stroke:     #{$light_stroke};
+        --default_accent:     #{$light_accent};
+        --default_sidebar_bg: #{$light_sidebar_bg};
+        --default_sidebar_fg: #{$light_sidebar_fg};
+    {{ else if eq .Site.Data.colors.default "dracula" }}
+        --default_bg:         #{$dracula_bg};
+        --default_hl_bg:      #{$dracula_hl_bg};
+        --default_fg:         #{$dracula_fg};
+        --default_dim_fg:     #{$dracula_dim_fg};
+        --default_stroke:     #{$dracula_stroke};
+        --default_accent:     #{$dracula_accent};
+        --default_sidebar_bg: #{$dracula_sidebar_bg};
+        --default_sidebar_fg: #{$dracula_sidebar_fg};
     {{ end }}
 }
 
